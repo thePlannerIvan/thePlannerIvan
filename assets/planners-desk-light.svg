@@ -1,121 +1,98 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 770" width="1000" height="770" role="img" aria-label="Planner's Desk Editorial Map">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 650" width="1000" height="650" role="img" aria-label="Planner's Desk Workflow Map">
 <defs>
-<pattern id="dotgrid-light" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="10" cy="10" r="0.85" fill="#C6C6C0"/></pattern>
+<pattern id="dotgrid-light" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="10" cy="10" r="0.85" fill="#C8C8C2"/></pattern>
 </defs>
-<rect width="1000" height="770" fill="#EAEAE6"/>
-<rect width="1000" height="770" fill="url(#dotgrid-light)"/>
-<text x="40" y="34" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10" letter-spacing="1.4" fill="#5C5C57">PLANNER'S DESK · BY AZU</text>
-<text x="960" y="34" text-anchor="end" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10" letter-spacing="1.4" fill="#5C5C57">AI AMPLIFIER FOR MARKETERS · ARCH 01—03</text>
-<text x="40" y="96" font-family="'Helvetica Neue','PingFang SC','Hiragino Sans GB','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="46" font-weight="700" letter-spacing="-1.8" fill="#0B0B0B">PLANNER'S</text>
-<text x="40" y="142" font-family="'Helvetica Neue','PingFang SC','Hiragino Sans GB','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="46" font-weight="700" letter-spacing="-1.8" fill="#0B0B0B">DESK</text>
-<text x="348" y="68" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="9.5" letter-spacing="1.2" fill="#5C5C57">DIVERGENCE — CONVERGENCE WORKFLOW</text>
-<text x="348" y="93" font-family="'Helvetica Neue','PingFang SC','Hiragino Sans GB','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="21" font-weight="600" letter-spacing="-0.4" fill="#0B0B0B">(HUMAN JUDGMENT × AGENT)</text>
-<text x="348" y="116" font-family="'Helvetica Neue','PingFang SC','Hiragino Sans GB','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="11.5" fill="#5C5C57">人的价值在于判断与创意，把收集整理、推演写作、核查与制作交给工作流</text>
-<text x="40" y="176" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="9.5" letter-spacing="1.1" fill="#5C5C57">№</text>
-<text x="112" y="176" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="9.5" letter-spacing="1.1" fill="#5C5C57">TRACK</text>
-<text x="330" y="176" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="9.5" letter-spacing="1.1" fill="#5C5C57">WORKFLOW &amp; SKILLS</text>
-<line x1="40" y1="186" x2="960" y2="186" stroke="#181818" stroke-width="1"/>
-<text x="40" y="232" font-family="Georgia,'Times New Roman','Songti SC',serif" font-size="22" font-style="italic" fill="#0B0B0B">(01)</text>
-<text x="112" y="222" font-family="'Helvetica Neue','PingFang SC','Hiragino Sans GB','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="16" font-weight="700" letter-spacing="0.2" fill="#0B0B0B">PITCH &amp; DECK</text>
-<text x="112" y="241" font-family="'Helvetica Neue','PingFang SC','Hiragino Sans GB','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="12" fill="#2E2E2E">商业提案与 PPT 产线</text>
-<text x="112" y="268" font-family="'Helvetica Neue','PingFang SC','Hiragino Sans GB','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="10.5" fill="#5C5C57">从几十份访谈与数据出发，</text>
-<text x="112" y="284" font-family="'Helvetica Neue','PingFang SC','Hiragino Sans GB','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="10.5" fill="#5C5C57">一路推进到可编辑 PPTX</text>
-<circle cx="364" cy="276" r="34" fill="none" stroke="#181818" stroke-width="1.05"/>
-<circle cx="404" cy="276" r="34" fill="none" stroke="#181818" stroke-width="1.05"/>
-<circle cx="384" cy="248.3" r="2.4" fill="#EAEAE6" stroke="#181818" stroke-width="1"/>
-<circle cx="384" cy="303.7" r="2.4" fill="#EAEAE6" stroke="#181818" stroke-width="1"/>
-<text x="352" y="274" text-anchor="middle" font-family="'Helvetica Neue','PingFang SC','Hiragino Sans GB','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="9.5" fill="#0B0B0B">定性</text>
-<text x="352" y="287" text-anchor="middle" font-family="'Helvetica Neue','PingFang SC','Hiragino Sans GB','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="9.5" fill="#5C5C57">洞察</text>
-<text x="416" y="274" text-anchor="middle" font-family="'Helvetica Neue','PingFang SC','Hiragino Sans GB','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="9.5" fill="#0B0B0B">定量</text>
-<text x="416" y="287" text-anchor="middle" font-family="'Helvetica Neue','PingFang SC','Hiragino Sans GB','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="9.5" fill="#5C5C57">决策</text>
-<text x="384" y="334" text-anchor="middle" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10.5" font-weight="700" fill="#0B0B0B">quali / quanti-box</text>
-<text x="384" y="350" text-anchor="middle" font-family="'Helvetica Neue','PingFang SC','Hiragino Sans GB','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="10.5" fill="#5C5C57">拆透调研与数据底账</text>
-<line x1="444" y1="276" x2="498" y2="276" stroke="#181818" stroke-width="1"/>
-<circle cx="444" cy="276" r="2.6" fill="#EAEAE6" stroke="#181818" stroke-width="1"/>
-<polyline points="493,272.5 498,276 493,279.5" fill="none" stroke="#181818" stroke-width="1.1"/>
-<path d="M 544 234 L 544 214 L 558 214" fill="none" stroke="#5C5C57" stroke-width="1" stroke-dasharray="2.5 2.5"/>
-<path d="M 700 214 L 714 214 L 714 236" fill="none" stroke="#5C5C57" stroke-width="1" stroke-dasharray="2.5 2.5"/>
-<circle cx="544" cy="234" r="2.4" fill="#EAEAE6" stroke="#181818" stroke-width="1"/>
-<circle cx="714" cy="236" r="2.4" fill="#EAEAE6" stroke="#181818" stroke-width="1"/>
-<text x="629" y="217" text-anchor="middle" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10" fill="#2E2E2E">+ planners-method-wiki</text>
-<circle cx="544" cy="276" r="40" fill="#111111"/>
-<text x="544" y="274" text-anchor="middle" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10.5" font-weight="700" letter-spacing="0.5" fill="#F5F5F2">STORYLINE</text>
-<text x="544" y="290" text-anchor="middle" font-family="'Helvetica Neue','PingFang SC','Hiragino Sans GB','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="10" fill="#B8B8B2">共创主线</text>
-<text x="544" y="334" text-anchor="middle" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10.5" font-weight="700" fill="#0B0B0B">planners-proposal</text>
-<text x="544" y="350" text-anchor="middle" font-family="'Helvetica Neue','PingFang SC','Hiragino Sans GB','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="10.5" fill="#5C5C57">研讨取舍 · 改工作台</text>
-<line x1="590" y1="276" x2="656" y2="276" stroke="#181818" stroke-width="1"/>
-<circle cx="590" cy="276" r="2.6" fill="#EAEAE6" stroke="#181818" stroke-width="1"/>
-<polyline points="651,272.5 656,276 651,279.5" fill="none" stroke="#181818" stroke-width="1.1"/>
-<rect x="664" y="240" width="100" height="72" fill="none" stroke="#181818" stroke-width="1" stroke-dasharray="3.5 3"/>
-<text x="714" y="274" text-anchor="middle" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10.5" font-weight="700" letter-spacing="0.5" fill="#0B0B0B">BY-PAGE</text>
-<text x="714" y="290" text-anchor="middle" font-family="'Helvetica Neue','PingFang SC','Hiragino Sans GB','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="10" fill="#5C5C57">逐页 · 核查</text>
-<text x="714" y="334" text-anchor="middle" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10.5" font-weight="700" fill="#0B0B0B">planners-bypage</text>
-<text x="714" y="350" text-anchor="middle" font-family="'Helvetica Neue','PingFang SC','Hiragino Sans GB','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="10.5" fill="#5C5C57">可编程正文 · 追源查错</text>
-<line x1="770" y1="276" x2="824" y2="276" stroke="#181818" stroke-width="1"/>
-<circle cx="770" cy="276" r="2.6" fill="#EAEAE6" stroke="#181818" stroke-width="1"/>
-<polyline points="819,272.5 824,276 819,279.5" fill="none" stroke="#181818" stroke-width="1.1"/>
-<rect x="832" y="240" width="114" height="72" fill="#111111"/>
-<text x="889" y="274" text-anchor="middle" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10.5" font-weight="700" letter-spacing="0.5" fill="#F5F5F2">SVG / PPTX</text>
-<text x="889" y="290" text-anchor="middle" font-family="'Helvetica Neue','PingFang SC','Hiragino Sans GB','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="10" fill="#B8B8B2">视觉交付</text>
-<text x="889" y="334" text-anchor="middle" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10.5" font-weight="700" fill="#0B0B0B">planners-ppt-hell</text>
-<text x="889" y="350" text-anchor="middle" font-family="'Helvetica Neue','PingFang SC','Hiragino Sans GB','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="10.5" fill="#5C5C57">SVG 工作台 · 导 PPTX</text>
-<line x1="40" y1="372" x2="960" y2="372" stroke="#BDBDB6" stroke-width="1"/>
-<text x="40" y="418" font-family="Georgia,'Times New Roman','Songti SC',serif" font-size="22" font-style="italic" fill="#0B0B0B">(02)</text>
-<text x="112" y="408" font-family="'Helvetica Neue','PingFang SC','Hiragino Sans GB','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="16" font-weight="700" letter-spacing="0.2" fill="#0B0B0B">VIDEO LINE</text>
-<text x="112" y="427" font-family="'Helvetica Neue','PingFang SC','Hiragino Sans GB','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="12" fill="#2E2E2E">观点短视频产线</text>
-<text x="112" y="454" font-family="'Helvetica Neue','PingFang SC','Hiragino Sans GB','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="10.5" fill="#5C5C57">与 PPT 产线共用静态画面，</text>
-<text x="112" y="470" font-family="'Helvetica Neue','PingFang SC','Hiragino Sans GB','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="10.5" fill="#5C5C57">从口播定稿走到成片输出</text>
-<circle cx="384" cy="440" r="42" fill="none" stroke="#181818" stroke-width="1" stroke-dasharray="3.5 3"/>
-<circle cx="384" cy="440" r="31" fill="none" stroke="#181818" stroke-width="1"/>
-<text x="384" y="438" text-anchor="middle" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10" font-weight="700" fill="#0B0B0B">SCRIPT</text>
-<text x="384" y="452" text-anchor="middle" font-family="'Helvetica Neue','PingFang SC','Hiragino Sans GB','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="9.5" fill="#5C5C57">选题与口播</text>
-<text x="384" y="498" text-anchor="middle" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10.5" font-weight="700" fill="#0B0B0B">video-idea-system</text>
-<text x="384" y="514" text-anchor="middle" font-family="'Helvetica Neue','PingFang SC','Hiragino Sans GB','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="10.5" fill="#5C5C57">52 技法发散 · 念稿审阅</text>
-<line x1="434" y1="440" x2="520" y2="440" stroke="#181818" stroke-width="1"/>
-<circle cx="434" cy="440" r="2.6" fill="#EAEAE6" stroke="#181818" stroke-width="1"/>
-<polyline points="515,436.5 520,440 515,443.5" fill="none" stroke="#181818" stroke-width="1.1"/>
-<rect x="528" y="404" width="112" height="72" fill="none" stroke="#181818" stroke-width="1"/>
-<line x1="528" y1="404" x2="538" y2="414" stroke="#5C5C57" stroke-width="0.9"/>
-<line x1="640" y1="476" x2="630" y2="466" stroke="#5C5C57" stroke-width="0.9"/>
-<text x="584" y="438" text-anchor="middle" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10.5" font-weight="700" fill="#0B0B0B">KEYFRAMES</text>
-<text x="584" y="454" text-anchor="middle" font-family="'Helvetica Neue','PingFang SC','Hiragino Sans GB','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="10" fill="#5C5C57">静态画面 SVG</text>
-<text x="584" y="498" text-anchor="middle" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10.5" font-weight="700" fill="#0B0B0B">planners-ppt-hell</text>
-<text x="584" y="514" text-anchor="middle" font-family="'Helvetica Neue','PingFang SC','Hiragino Sans GB','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="10.5" fill="#5C5C57">按画面契约输出风格静帧</text>
-<line x1="648" y1="440" x2="736" y2="440" stroke="#181818" stroke-width="1"/>
-<circle cx="648" cy="440" r="2.6" fill="#EAEAE6" stroke="#181818" stroke-width="1"/>
-<polyline points="731,436.5 736,440 731,443.5" fill="none" stroke="#181818" stroke-width="1.1"/>
-<rect x="744" y="404" width="128" height="72" fill="#111111"/>
-<text x="808" y="438" text-anchor="middle" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10.5" font-weight="700" letter-spacing="0.5" fill="#F5F5F2">FINAL CUT</text>
-<text x="808" y="454" text-anchor="middle" font-family="'Helvetica Neue','PingFang SC','Hiragino Sans GB','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="10" fill="#B8B8B2">合成交付</text>
-<text x="808" y="498" text-anchor="middle" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10.5" font-weight="700" fill="#0B0B0B">video-craft</text>
-<text x="808" y="514" text-anchor="middle" font-family="'Helvetica Neue','PingFang SC','Hiragino Sans GB','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="10.5" fill="#5C5C57">实测对轨 · 轻动效 · 字幕</text>
-<line x1="40" y1="538" x2="960" y2="538" stroke="#BDBDB6" stroke-width="1"/>
-<text x="40" y="582" font-family="Georgia,'Times New Roman','Songti SC',serif" font-size="22" font-style="italic" fill="#0B0B0B">(03)</text>
-<text x="112" y="572" font-family="'Helvetica Neue','PingFang SC','Hiragino Sans GB','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="16" font-weight="700" letter-spacing="0.2" fill="#0B0B0B">CRAFT TOOLS</text>
-<text x="112" y="591" font-family="'Helvetica Neue','PingFang SC','Hiragino Sans GB','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="12" fill="#2E2E2E">单独好用的小工具</text>
-<text x="112" y="618" font-family="'Helvetica Neue','PingFang SC','Hiragino Sans GB','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="10.5" fill="#5C5C57">不用开整套工程，</text>
-<text x="112" y="634" font-family="'Helvetica Neue','PingFang SC','Hiragino Sans GB','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="10.5" fill="#5C5C57">随时单拔即用</text>
-<line x1="330" y1="630" x2="960" y2="630" stroke="#BDBDB6" stroke-width="0.85"/>
-<text x="330" y="566" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="9.5" fill="#5C5C57">01</text>
-<text x="330" y="584" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12" font-weight="700" fill="#0B0B0B">sparkling *</text>
-<text x="330" y="603" font-family="'Helvetica Neue','PingFang SC','Hiragino Sans GB','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="10.5" fill="#5C5C57">卡在思考时，高摩擦业务研讨破局</text>
-<text x="545" y="566" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="9.5" fill="#5C5C57">02</text>
-<text x="545" y="584" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12" font-weight="700" fill="#0B0B0B">storytelling *</text>
-<text x="545" y="603" font-family="'Helvetica Neue','PingFang SC','Hiragino Sans GB','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="10.5" fill="#5C5C57">把干瘪的事实清单写成好故事</text>
-<text x="760" y="566" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="9.5" fill="#5C5C57">03</text>
-<text x="760" y="584" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12" font-weight="700" fill="#0B0B0B">slide-copy *</text>
-<text x="760" y="603" font-family="'Helvetica Neue','PingFang SC','Hiragino Sans GB','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="10.5" fill="#5C5C57">写标题即判断、高密度的 PPT 文案</text>
-<text x="330" y="650" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="9.5" fill="#5C5C57">04</text>
-<text x="330" y="668" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12" font-weight="700" fill="#0B0B0B">editor</text>
-<text x="330" y="687" font-family="'Helvetica Neue','PingFang SC','Hiragino Sans GB','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="10.5" fill="#5C5C57">红绿内联建议，全文直接精校文章</text>
-<text x="545" y="650" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="9.5" fill="#5C5C57">05</text>
-<text x="545" y="668" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12" font-weight="700" fill="#0B0B0B">keywords</text>
-<text x="545" y="687" font-family="'Helvetica Neue','PingFang SC','Hiragino Sans GB','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="10.5" fill="#5C5C57">把陌生领域术语做成杠杆词图谱</text>
-<text x="760" y="650" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="9.5" fill="#5C5C57">06</text>
-<text x="760" y="668" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10.2" font-weight="700" fill="#0B0B0B">planning-before-create-skill</text>
-<text x="760" y="687" font-family="'Helvetica Neue','PingFang SC','Hiragino Sans GB','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="10.5" fill="#5C5C57">把好方法沉淀成可靠 Agent Skill</text>
-<line x1="40" y1="726" x2="960" y2="726" stroke="#181818" stroke-width="1"/>
-<text x="40" y="750" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10" letter-spacing="1" fill="#5C5C57">AZU · DEMYTH.INFO</text>
-<text x="500" y="750" text-anchor="middle" font-family="'Helvetica Neue','PingFang SC','Hiragino Sans GB','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="10.5" fill="#5C5C57">* 既可单兵调用，也在产线讨论与写作中自动协同唤醒</text>
-<text x="960" y="750" text-anchor="end" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10" letter-spacing="1" fill="#5C5C57">OPEN SOURCE · 2026</text>
+<rect width="1000" height="650" fill="#EAEAE6"/>
+<rect width="1000" height="650" fill="url(#dotgrid-light)"/>
+<text x="40" y="72" font-family="'Helvetica Neue','PingFang SC','Hiragino Sans GB','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="44" font-weight="700" letter-spacing="-1.8" fill="#0B0B0B">PLANNER'S</text>
+<text x="40" y="116" font-family="'Helvetica Neue','PingFang SC','Hiragino Sans GB','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="44" font-weight="700" letter-spacing="-1.8" fill="#0B0B0B">DESK</text>
+<text x="960" y="72" text-anchor="end" font-family="'Helvetica Neue','PingFang SC','Hiragino Sans GB','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="20" font-weight="600" letter-spacing="-0.4" fill="#0B0B0B">(HUMAN JUDGMENT × AGENT)</text>
+<line x1="40" y1="138" x2="960" y2="138" stroke="#181818" stroke-width="1"/>
+<text x="40" y="186" font-family="Georgia,'Times New Roman','Songti SC',serif" font-size="22" font-style="italic" fill="#0B0B0B">(01)</text>
+<text x="112" y="178" font-family="'Helvetica Neue','PingFang SC','Hiragino Sans GB','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="16" font-weight="700" letter-spacing="0.2" fill="#0B0B0B">PITCH &amp; DECK</text>
+<text x="112" y="198" font-family="'Helvetica Neue','PingFang SC','Hiragino Sans GB','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="12" fill="#2E2E2E">商业提案与 PPT</text>
+<circle cx="364" cy="222" r="34" fill="none" stroke="#181818" stroke-width="1.05"/>
+<circle cx="404" cy="222" r="34" fill="none" stroke="#181818" stroke-width="1.05"/>
+<circle cx="384" cy="194.3" r="2.4" fill="#EAEAE6" stroke="#181818" stroke-width="1"/>
+<circle cx="384" cy="249.7" r="2.4" fill="#EAEAE6" stroke="#181818" stroke-width="1"/>
+<text x="352" y="220" text-anchor="middle" font-family="'Helvetica Neue','PingFang SC','Hiragino Sans GB','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="9.5" fill="#0B0B0B">定性</text>
+<text x="352" y="233" text-anchor="middle" font-family="'Helvetica Neue','PingFang SC','Hiragino Sans GB','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="9.5" fill="#5E5E59">洞察</text>
+<text x="416" y="220" text-anchor="middle" font-family="'Helvetica Neue','PingFang SC','Hiragino Sans GB','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="9.5" fill="#0B0B0B">定量</text>
+<text x="416" y="233" text-anchor="middle" font-family="'Helvetica Neue','PingFang SC','Hiragino Sans GB','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="9.5" fill="#5E5E59">决策</text>
+<text x="384" y="280" text-anchor="middle" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10.5" font-weight="700" fill="#0B0B0B">quali / quanti-box</text>
+<text x="384" y="296" text-anchor="middle" font-family="'Helvetica Neue','PingFang SC','Hiragino Sans GB','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="10.5" fill="#5E5E59">访谈与数据洞察</text>
+<line x1="444" y1="222" x2="498" y2="222" stroke="#181818" stroke-width="1"/>
+<circle cx="444" cy="222" r="2.6" fill="#EAEAE6" stroke="#181818" stroke-width="1"/>
+<polyline points="493,218.5 498,222 493,225.5" fill="none" stroke="#181818" stroke-width="1.1"/>
+<path d="M 544 180 L 544 162 L 558 162" fill="none" stroke="#5E5E59" stroke-width="1" stroke-dasharray="2.5 2.5"/>
+<path d="M 700 162 L 714 162 L 714 182" fill="none" stroke="#5E5E59" stroke-width="1" stroke-dasharray="2.5 2.5"/>
+<circle cx="544" cy="180" r="2.4" fill="#EAEAE6" stroke="#181818" stroke-width="1"/>
+<circle cx="714" cy="182" r="2.4" fill="#EAEAE6" stroke="#181818" stroke-width="1"/>
+<text x="629" y="165" text-anchor="middle" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10" fill="#2E2E2E">+ planners-method-wiki</text>
+<circle cx="544" cy="222" r="40" fill="#111111"/>
+<text x="544" y="220" text-anchor="middle" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10.5" font-weight="700" letter-spacing="0.5" fill="#F5F5F2">STORYLINE</text>
+<text x="544" y="236" text-anchor="middle" font-family="'Helvetica Neue','PingFang SC','Hiragino Sans GB','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="10" fill="#B8B8B2">共创主线</text>
+<text x="544" y="280" text-anchor="middle" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10.5" font-weight="700" fill="#0B0B0B">planners-proposal</text>
+<text x="544" y="296" text-anchor="middle" font-family="'Helvetica Neue','PingFang SC','Hiragino Sans GB','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="10.5" fill="#5E5E59">研讨主线 · 实时改稿</text>
+<line x1="590" y1="222" x2="656" y2="222" stroke="#181818" stroke-width="1"/>
+<circle cx="590" cy="222" r="2.6" fill="#EAEAE6" stroke="#181818" stroke-width="1"/>
+<polyline points="651,218.5 656,222 651,225.5" fill="none" stroke="#181818" stroke-width="1.1"/>
+<rect x="664" y="186" width="100" height="72" fill="none" stroke="#181818" stroke-width="1" stroke-dasharray="3.5 3"/>
+<text x="714" y="220" text-anchor="middle" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10.5" font-weight="700" letter-spacing="0.5" fill="#0B0B0B">BY-PAGE</text>
+<text x="714" y="236" text-anchor="middle" font-family="'Helvetica Neue','PingFang SC','Hiragino Sans GB','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="10" fill="#5E5E59">逐页 · 核查</text>
+<text x="714" y="280" text-anchor="middle" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10.5" font-weight="700" fill="#0B0B0B">planners-bypage</text>
+<text x="714" y="296" text-anchor="middle" font-family="'Helvetica Neue','PingFang SC','Hiragino Sans GB','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="10.5" fill="#5E5E59">逐页正文 · 独立查错</text>
+<line x1="770" y1="222" x2="824" y2="222" stroke="#181818" stroke-width="1"/>
+<circle cx="770" cy="222" r="2.6" fill="#EAEAE6" stroke="#181818" stroke-width="1"/>
+<polyline points="819,218.5 824,222 819,225.5" fill="none" stroke="#181818" stroke-width="1.1"/>
+<rect x="832" y="186" width="114" height="72" fill="#111111"/>
+<text x="889" y="220" text-anchor="middle" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10.5" font-weight="700" letter-spacing="0.5" fill="#F5F5F2">SVG / PPTX</text>
+<text x="889" y="236" text-anchor="middle" font-family="'Helvetica Neue','PingFang SC','Hiragino Sans GB','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="10" fill="#B8B8B2">视觉交付</text>
+<text x="889" y="280" text-anchor="middle" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10.5" font-weight="700" fill="#0B0B0B">planners-ppt-hell</text>
+<text x="889" y="296" text-anchor="middle" font-family="'Helvetica Neue','PingFang SC','Hiragino Sans GB','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="10.5" fill="#5E5E59">SVG 工作台 · 导 PPTX</text>
+<line x1="40" y1="318" x2="960" y2="318" stroke="#BDBDB6" stroke-width="1"/>
+<text x="40" y="366" font-family="Georgia,'Times New Roman','Songti SC',serif" font-size="22" font-style="italic" fill="#0B0B0B">(02)</text>
+<text x="112" y="358" font-family="'Helvetica Neue','PingFang SC','Hiragino Sans GB','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="16" font-weight="700" letter-spacing="0.2" fill="#0B0B0B">VIDEO LINE</text>
+<text x="112" y="378" font-family="'Helvetica Neue','PingFang SC','Hiragino Sans GB','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="12" fill="#2E2E2E">观点短视频</text>
+<circle cx="384" cy="386" r="42" fill="none" stroke="#181818" stroke-width="1" stroke-dasharray="3.5 3"/>
+<circle cx="384" cy="386" r="31" fill="none" stroke="#181818" stroke-width="1"/>
+<text x="384" y="384" text-anchor="middle" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10" font-weight="700" fill="#0B0B0B">SCRIPT</text>
+<text x="384" y="398" text-anchor="middle" font-family="'Helvetica Neue','PingFang SC','Hiragino Sans GB','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="9.5" fill="#5E5E59">选题与口播</text>
+<text x="384" y="446" text-anchor="middle" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10.5" font-weight="700" fill="#0B0B0B">video-idea-system</text>
+<text x="384" y="462" text-anchor="middle" font-family="'Helvetica Neue','PingFang SC','Hiragino Sans GB','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="10.5" fill="#5E5E59">52 技法发散 · 念稿审阅</text>
+<line x1="434" y1="386" x2="520" y2="386" stroke="#181818" stroke-width="1"/>
+<circle cx="434" cy="386" r="2.6" fill="#EAEAE6" stroke="#181818" stroke-width="1"/>
+<polyline points="515,382.5 520,386 515,389.5" fill="none" stroke="#181818" stroke-width="1.1"/>
+<rect x="528" y="350" width="112" height="72" fill="none" stroke="#181818" stroke-width="1"/>
+<line x1="528" y1="350" x2="538" y2="360" stroke="#5E5E59" stroke-width="0.9"/>
+<line x1="640" y1="422" x2="630" y2="412" stroke="#5E5E59" stroke-width="0.9"/>
+<text x="584" y="384" text-anchor="middle" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10.5" font-weight="700" fill="#0B0B0B">KEYFRAMES</text>
+<text x="584" y="400" text-anchor="middle" font-family="'Helvetica Neue','PingFang SC','Hiragino Sans GB','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="10" fill="#5E5E59">静态画面 SVG</text>
+<text x="584" y="446" text-anchor="middle" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10.5" font-weight="700" fill="#0B0B0B">planners-ppt-hell</text>
+<text x="584" y="462" text-anchor="middle" font-family="'Helvetica Neue','PingFang SC','Hiragino Sans GB','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="10.5" fill="#5E5E59">输出风格静帧</text>
+<line x1="648" y1="386" x2="736" y2="386" stroke="#181818" stroke-width="1"/>
+<circle cx="648" cy="386" r="2.6" fill="#EAEAE6" stroke="#181818" stroke-width="1"/>
+<polyline points="731,382.5 736,386 731,389.5" fill="none" stroke="#181818" stroke-width="1.1"/>
+<rect x="744" y="350" width="128" height="72" fill="#111111"/>
+<text x="808" y="384" text-anchor="middle" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10.5" font-weight="700" letter-spacing="0.5" fill="#F5F5F2">FINAL CUT</text>
+<text x="808" y="400" text-anchor="middle" font-family="'Helvetica Neue','PingFang SC','Hiragino Sans GB','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="10" fill="#B8B8B2">合成交付</text>
+<text x="808" y="446" text-anchor="middle" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10.5" font-weight="700" fill="#0B0B0B">video-craft</text>
+<text x="808" y="462" text-anchor="middle" font-family="'Helvetica Neue','PingFang SC','Hiragino Sans GB','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="10.5" fill="#5E5E59">实测对轨 · 轻动效 · 字幕</text>
+<line x1="40" y1="484" x2="960" y2="484" stroke="#BDBDB6" stroke-width="1"/>
+<text x="40" y="530" font-family="Georgia,'Times New Roman','Songti SC',serif" font-size="22" font-style="italic" fill="#0B0B0B">(03)</text>
+<text x="112" y="522" font-family="'Helvetica Neue','PingFang SC','Hiragino Sans GB','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="16" font-weight="700" letter-spacing="0.2" fill="#0B0B0B">CRAFT TOOLS</text>
+<text x="112" y="542" font-family="'Helvetica Neue','PingFang SC','Hiragino Sans GB','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="12" fill="#2E2E2E">单独好用的小工具</text>
+<line x1="330" y1="556" x2="960" y2="556" stroke="#BDBDB6" stroke-width="0.85"/>
+<text x="330" y="520" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12" font-weight="700" fill="#0B0B0B">sparkling</text>
+<text x="330" y="539" font-family="'Helvetica Neue','PingFang SC','Hiragino Sans GB','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="11" fill="#5E5E59">业务研讨破局</text>
+<text x="545" y="520" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12" font-weight="700" fill="#0B0B0B">storytelling</text>
+<text x="545" y="539" font-family="'Helvetica Neue','PingFang SC','Hiragino Sans GB','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="11" fill="#5E5E59">叙事张力推进</text>
+<text x="760" y="520" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12" font-weight="700" fill="#0B0B0B">slide-copy</text>
+<text x="760" y="539" font-family="'Helvetica Neue','PingFang SC','Hiragino Sans GB','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="11" fill="#5E5E59">PPT 上屏文案</text>
+<text x="330" y="588" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12" font-weight="700" fill="#0B0B0B">editor</text>
+<text x="330" y="607" font-family="'Helvetica Neue','PingFang SC','Hiragino Sans GB','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="11" fill="#5E5E59">全文分层校对</text>
+<text x="545" y="588" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="12" font-weight="700" fill="#0B0B0B">keywords</text>
+<text x="545" y="607" font-family="'Helvetica Neue','PingFang SC','Hiragino Sans GB','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="11" fill="#5E5E59">领域词谱导图</text>
+<text x="760" y="588" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10.2" font-weight="700" fill="#0B0B0B">planning-before-create-skill</text>
+<text x="760" y="607" font-family="'Helvetica Neue','PingFang SC','Hiragino Sans GB','Microsoft YaHei',Helvetica,Arial,sans-serif" font-size="11" fill="#5E5E59">沉淀 Agent Skill</text>
 </svg>
