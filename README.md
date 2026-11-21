@@ -1,135 +1,123 @@
 # Planner's Desk
 
-*Everything on a strategist's desk, rebuilt as AI skills.*
+> **人守住核心判断，把收集整理、推演写作、核查与制作交给工作流——为 Marketing 人打造的 AI 放大器。**
 
-我是 **阿祖不看 TVC**（个人站 [demyth.info](https://demyth.info) · 联系 `Lawyif@163.com`）。这是一个围绕**真实策略顾问与内容创作者工作流**打造的开源 AI Skill 集合——既可以把零散调研一步步磨成可交付的 PPT 与视频，也可以拆出单个「手艺工具」独立调用。
+<br/>
 
----
+AI 看起来越来越像程序员的专属领域。工程师早已在用 Agent 和工作流重构一切，而做 Marketing 的人，往往还在争论「AI 到底有没有用」。
 
-## 整体怎么协同？
+跑过足够多真实项目后，我越来越笃定一个边界：**AI 想不出真正打动人的 Brilliant Idea，也做不出有锋芒的商业判断和消费者洞察。** 但只要人把判断握在手里，剩下的绝大多数重体力活——啃完几十份访谈和行业报告、展开高摩擦脑暴、磨顺提案 Storyline、写透可编排的逐页正文、死磕每一处数字出处、排成可交付的 PPT，甚至剪成一条口播视频——**全都可以被组织成一套稳定运转的 AI 工作流。**
 
-所有仓库按角色分成三层：**`Production Lines`（两条交付产线）**、**`Craft Tools`（可独立调用的手艺工具）** 与 **`Core & Plugins`（公共底座与 DSH 插件）**。
+当人的判断被系统接住，AI 就不再是写漂亮废话的玩具，而是一台**极大的「人的放大器」**。
 
-```mermaid
-flowchart LR
-    subgraph L1["Production Lines · 两条交付产线"]
-        direction TB
-        R1["📊 定性 / 定量研究<br/>quali-box · quanti-box"] --> P1["💡 策略共创与主线<br/>planners-proposal"]
-        W["📚 方法库 · planners-method-wiki"] -. 视角 & 页面结构 .-> P1
-        P1 --> B1["📝 逐页正文与事实核查<br/>planners-bypage"]
-        W -. 页面表达结构 .-> B1
-        B1 --> S1["🎨 SVG 工作台 & PPTX<br/>planners-ppt-hell"]
-        V1["🎬 短视频创意与口播<br/>video-idea-system"] --> S1
-        V1 --> V2["✂️ 剪辑与动效成片<br/>video-craft"]
-        S1 -- 静态关键帧 SVG --> V2
-    end
-
-    subgraph L2["Craft Tools · 可单兵使用 / 按需插入主线"]
-        direction TB
-        T1["sparkling · 业务研讨"]
-        T2["storytelling · 叙事推进"]
-        T3["slide-copy · PPT 文案"]
-        T4["editor · 分层校对"]
-        T5["keywords · 杠杆词图谱"]
-        T6["planning-before-create-skill · Skill 工程设计"]
-    end
-
-    T1 & T2 & T3 -. 按需唤醒 .- P1 & B1
-    F["⚡ 安装入口 · planners-form (DSH) / npx skills add"] --> L1 & L2
-```
-
-> 按类别快速浏览仓库：[交付产线 (`production-line`)](https://github.com/thePlannerIvan?tab=repositories&q=topic:production-line) · [手艺工具 (`craft-tool`)](https://github.com/thePlannerIvan?tab=repositories&q=topic:craft-tool) · [底座与插件 (`planners-core` / `dsh-plugin`)](https://github.com/thePlannerIvan?tab=repositories&q=topic:planners-desk)
+我是 **阿祖不看 TVC**，一名品牌策略师（小红书同名 · 个人站 [demyth.info](https://demyth.info) · `Lawyif@163.com`）。我把自己在真实品牌项目里摸索出 AI 边界、打磨出来的人机协作方法，开源整理成 **Planner's Desk**——希望让所有做 Marketing、做品牌、做内容的人，不必从零踩坑，直接站在我的案头上放大自己的判断力。
 
 ---
 
-## 如何上手与安装（30 秒开始）
+## 一张图看懂怎么用
 
-### 方式一：DSH 用户（最推荐 · 一键安装整套或按需勾选）
+你可以从一整条**成型产线（Production Lines）**切入，从调研一路走到 PPT 或成片；也可以只抽下面六把**单独好用的手艺小刀（Craft Tools）**来用。
 
-我专门做了一个统一安装入口 **[Planners Form](https://github.com/thePlannerIvan/planners-form)**，不用自己找仓库、配依赖或手动搭审阅面板：
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/planners-desk-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="./assets/planners-desk-light.svg" />
+    <img alt="Planner's Desk — 两条成型工作流与六个独立手艺工具" src="./assets/planners-desk-light.svg" width="100%" />
+  </picture>
+</p>
 
-1. 在 DSH 打开 **插件 → 添加插件**，粘贴仓库地址并点击 **安装**：
+> 按类别直达仓库：[成型工作流 (`production-line`)](https://github.com/thePlannerIvan?tab=repositories&q=topic:production-line) · [单兵手艺工具 (`craft-tool`)](https://github.com/thePlannerIvan?tab=repositories&q=topic:craft-tool) · [全部套件 (`planners-desk`)](https://github.com/thePlannerIvan?tab=repositories&q=topic:planners-desk)
+
+---
+
+## 30 秒安装上手
+
+你不需要研究下面这些仓库之间复杂的依赖关系，两条路都能直接开跑：
+
+### 方式一：DSH 用户（最推荐 · 一键装好整套或按需勾选）
+
+我专门做了一个统一安装器 **[Planners Form](https://github.com/thePlannerIvan/planners-form)**，装完它就能在界面里点选任意环节，所有配套底座和审阅面板会自动配齐：
+
+1. 打开 DSH → **插件 → 添加插件**，粘贴下面地址并点 **安装**：
    ```text
    https://github.com/thePlannerIvan/planners-form
    ```
-2. 启用后打开 **设置 → Planners Form**，想用哪个环节就勾选对应 Skill，点击 **安装所选 Skill**（所需的 `planners-review-core`、`planners-source-index`、`planners-fact-check` 等公共底座会自动备齐）。
-   *(如遇 GitHub 网络波动，可下载该仓 zip 包用 `dsh plugin --profile <name> add <解压目录>` 本地安装。)*
+2. 启用后打开 **设置 → Planners Form**，需要写方案、做图还是剪视频，直接勾选并点 **安装所选 Skill**。
+   *(若直连 GitHub 超时，可下载仓库 zip 包并用 `dsh plugin --profile <name> add <解压目录>` 本地安装。)*
 
 ### 方式二：Codex / Claude Code / Antigravity 用户
 
-挑你今天要用的那个仓库直接安装，共享底座首次运行时会按需自动准备：
+挑你此刻最想试的单个仓库安装即可（共享底座在首次运行时按需自动备齐）：
 
 ```bash
-# 按需安装任一 Skill（以 planners-proposal 或独立单兵 sparkling 为例）
+# 例：装整套策略主线，或只装一把单独好用的手艺工具
 npx skills add https://github.com/thePlannerIvan/planners-proposal --skill planners-proposal
 npx skills add https://github.com/thePlannerIvan/sparkling --skill sparkling
 ```
 
-### 装完怎么开口用？（直接复制这三句）
+### 装完怎么对 AI 开口？（直接复制这几句）
 
-- **从一堆调研资料开始做商业提案 PPT**：
-  `使用 $planners-proposal 完整阅读这个目录的 Brief 和调研资料，和我一起收敛策略判断，写成 storyline.md 并打开工作台让我调整。`
-- **把定稿主线扩成可编程 PPT 文案并核查数据**：
-  `使用 $planners-bypage 读取 .planners/storyline.md，按页面表达结构写成逐页稿 by-page.md，跑完独立事实核查再开工作台审阅。`
-- **单独用一个手艺工具拆卡点 / 改文章**：
-  `使用 $sparkling 带我用证据对撞拆解下面这份业务材料，最后给出一页纸结论。`
-
----
-
-## 1. Production Lines · 交付产线
-
-把零散资料一路推向最终交付的端到端流水线。你可以从任意一环切入，但每环产出的契约（`planners-doc/2`、`source-index/2.1.0`、`fact-audit`）都是上下游无缝咬合的。
-
-### A. 商业调研、提案与 PPT 产线
-
-| 阶段 | 仓库 | 它帮你解决什么问题 |
-|---|---|---|
-| 定性洞察 | [`planners-quali-box`](https://github.com/thePlannerIvan/planners-quali-box) | 把社媒评论、访谈与开放题变成有证据链路和 HTML 报告的洞察结论 |
-| 定量决策 | [`planners-quanti-box`](https://github.com/thePlannerIvan/planners-quanti-box) | 让 CSV/Excel 自动产出可回溯的数据检验、驱动拆解与咨询式离线报告 |
-| 方法智库 | [`planners-method-wiki`](https://github.com/thePlannerIvan/planners-method-wiki) | **Karpathy LLM Wiki (Markdown 真源)**：自带 11 模块 33 种分析视角与页面表达结构，可编译离线 `wiki-viewer.html` |
-| 策略主线 | [`planners-proposal`](https://github.com/thePlannerIvan/planners-proposal) | 消化多源资料、组织高摩擦研讨，在实时文字工作台拖拽磨顺 `storyline.md` |
-| 逐页核查 | [`planners-bypage`](https://github.com/thePlannerIvan/planners-bypage) | 把 Storyline 扩写成适合编程 PPT 的逐页稿 `by-page.md`，后台补齐原文底账并过独立 `fact-check` 门禁 |
-| 视觉交付 | [`planners-ppt-hell`](https://github.com/thePlannerIvan/planners-ppt-hell) | 基于模板包与构图规则生成可交互 SVG 视觉工作台，多模态看图自检并按需导出可编辑 `.pptx` |
-
-### B. 内容与短视频产线
-
-| 阶段 | 仓库 | 它帮你解决什么问题 |
-|---|---|---|
-| 创意与口播 | [`video-idea-system`](https://github.com/thePlannerIvan/video-idea-system) | 用 52 张创意卡发散与 Story Battle 定出可录口播稿与画面契约（含念稿审阅页） |
-| 画面静帧 | [`planners-ppt-hell`](https://github.com/thePlannerIvan/planners-ppt-hell) | 视频路线下为口播画面输出带风格包与保护守卫的静态关键帧 SVG |
-| 剪辑成片 | [`video-craft`](https://github.com/thePlannerIvan/video-craft) | 承接口播、音频与静态 SVG，完成时间轴绑定、轻动效、语义字幕与审阅合成 |
+- **手里有一堆调研资料，想理出策略主线**：
+  > `使用 $planners-proposal 完整阅读这个目录的 Brief 和调研资料，和我一起收敛策略判断，写成 storyline.md 并打开工作台让我调整。`
+- **主线定好了，要写成可做 PPT 的逐页正文并严查数据**：
+  > `使用 $planners-bypage 读取 .planners/storyline.md，按页面表达结构写成逐页稿 by-page.md，跑完独立事实核查后再开工作台审阅。`
+- **只想找 AI 陪我拆一个业务卡点 / 顺一篇长稿**：
+  > `使用 $sparkling 带我用证据对撞拆解这份业务材料，给出一页纸战略结论。`
 
 ---
 
-## 2. Craft Tools · 手艺工具
+## 1. Production Lines · 已成型的端到端工作流
 
-不依赖整条流水线、**单装即可直接上手的独立 Skill**（其中 `sparkling`、`storytelling`、`slide-copy` 也是上方产线会自动协同的专精镜头）：
+每一环都对应真实的策略顾问工作阶段——从任意一环切入都能跑通，上一环交出的文件，下一环会直接认领并继续推进。
 
-| 工具 | 它帮你解决什么问题 |
+### 商业调研、提案与 PPT 产线
+
+| 阶段 | 仓库 | 替你接管什么工作 |
+|---|---|---|
+| **01 · 拆透资料** | [`planners-quali-box`](https://github.com/thePlannerIvan/planners-quali-box) · [`planners-quanti-box`](https://github.com/thePlannerIvan/planners-quanti-box) | 分别消化社媒评论/访谈与 CSV/Excel 表格，自动输出溯源清楚的研究结论与离线 HTML 报告 |
+| **02 · 共创主线** | [`planners-proposal`](https://github.com/thePlannerIvan/planners-proposal) | 消化 Brief 与调研材料、多轮对齐取舍，生成可在实时工作台拖拽改字的 `storyline.md` |
+| **方法智库（随时查）** | [`planners-method-wiki`](https://github.com/thePlannerIvan/planners-method-wiki) | Karpathy Markdown 方法库：自带 11 个营销模块、33 种分析视角与页面表达结构（含离线 `wiki-viewer.html`） |
+| **03 · 写透核准** | [`planners-bypage`](https://github.com/thePlannerIvan/planners-bypage) | 结合页面结构把 Storyline 扩写成适合编程 PPT 的 `by-page.md`，自动抽原文底账并通过独立事实核查 |
+| **04 · 视觉交付** | [`planners-ppt-hell`](https://github.com/thePlannerIvan/planners-ppt-hell) | 用设计模板包与版式原语做高密咨询页 SVG 视觉工作台，支持多模态看图自检与按需导出 `.pptx` |
+
+### 观点短视频产线
+
+| 阶段 | 仓库 | 替你接管什么工作 |
+|---|---|---|
+| **01 · 创意与口播** | [`video-idea-system`](https://github.com/thePlannerIvan/video-idea-system) | 用 52 技法发散与 Story Battle 磨出观点，交付带念稿审阅面的可录口播稿与画面契约 |
+| **02 · 静态关键帧** | [`planners-ppt-hell`](https://github.com/thePlannerIvan/planners-ppt-hell) | 在视频路线上按画面契约输出风格统一的静态关键帧 SVG |
+| **03 · 剪辑成片** | [`video-craft`](https://github.com/thePlannerIvan/video-craft) | 承接口播录音与静态 SVG，完成实测时间轴对齐、轻动效、语义字幕与审阅合成 |
+
+---
+
+## 2. Craft Tools · 随时可单拔的手艺小工具
+
+不用开整套工程、随时拉一个起来就能帮具体活提速（其中前三项在跑上面产线时也会被自动唤醒协同）：
+
+| 工具 | 什么时候拉它出来 |
 |---|---|
-| [`sparkling`](https://github.com/thePlannerIvan/sparkling) | **业务研讨**：携材料展开高摩擦结构化研讨，用证据对撞打破旧判断并收敛一页纸结论 |
-| [`storytelling`](https://github.com/thePlannerIvan/storytelling) | **叙事引擎**：打破平铺直叙的说明文清单，注入认知张力与章节推进动量 |
-| [`slide-copy`](https://github.com/thePlannerIvan/slide-copy) | **PPT 文案规范**：专治页面像散文——训练标题即判断、结构高密度的上屏文案 |
-| [`editor`](https://github.com/thePlannerIvan/editor) | **分层校对工作台**：AI 建议以红绿内联标在原文中（点绿同意、点红不改、未点默认接受），全文可直接编辑 |
-| [`keywords`](https://github.com/thePlannerIvan/keywords) | **杠杆词图谱**：将陌生专业领域的关键术语梳理为可视化思维导图与一键调用词表 |
-| [`planning-before-create-skill`](https://github.com/thePlannerIvan/planning-before-create-skill) | **Skill 工程准则**：用 OKR / Playbook / Deep-module CLI 与确定性 lint/evals 打造真正可靠的 Agent Skill |
+| [`sparkling`](https://github.com/thePlannerIvan/sparkling) | 带着材料讨论卡点、需要用证据对撞打破旧判断，收敛成一页纸结论时 |
+| [`storytelling`](https://github.com/thePlannerIvan/storytelling) | 写出来的方案或文章全是干巴巴的事实罗列，需要注入认知引力与推进动量时 |
+| [`slide-copy`](https://github.com/thePlannerIvan/slide-copy) | PPT 总是写成大段散文，需要写出标题即判断、结构高密度上屏文案时 |
+| [`editor`](https://github.com/thePlannerIvan/editor) | 一篇文章写完了需要逐句精校——红绿内联建议，点绿改、点红留、全文直改 |
+| [`keywords`](https://github.com/thePlannerIvan/keywords) | 刚切入一个陌生行业或专业领域，想快速建一张带可视化释义的杠杆词图谱时 |
+| [`planning-before-create-skill`](https://github.com/thePlannerIvan/planning-before-create-skill) | 想把自己反复在做的某套工作方法，从一次性 Prompt 沉淀成可靠的 Agent Skill 时 |
 
 ---
 
 <details>
-<summary><h2>3. Core &amp; Plugins · 公共底座、DSH 插件与生态仓库</h2></summary>
+<summary><h2>3. Core &amp; Plugins · 幕后公共底座与 DSH 插件（日常使用无需手装）</h2></summary>
 
-这些仓库为上面的产线和工作台提供统一的交互、来源追踪、事实校验与安装底座（通常随主线自动准备，也可供其他 Skill 作者独立复用）：
+这些仓库不直接面向最终任务提问，但保证了整张案台的数据可溯源、页面能拖拽、数字不出错、安装不折腾：
 
-| 类型 | 仓库 | 职责说明 |
+| 类型 | 仓库 | 作用 |
 |---|---|---|
-| DSH 插件 | [`planners-form`](https://github.com/thePlannerIvan/planners-form) | DSH 设置页中的统一安装器、依赖准备与版本更新面板 |
-| DSH 插件 | [`dsh-review-dock`](https://github.com/thePlannerIvan/dsh-review-dock) | DSH 右侧栏通用审阅宿主，支持挂载所有工作台 HTML 并唤醒 Agent |
-| 公共底座 | [`planners-review-core`](https://github.com/thePlannerIvan/planners-review-core) | 统一提供 `planners-doc/2` 实时文字工作台、`doc-surface` / `doc-workbench`、结构 diff 与批注流 |
-| 公共底座 | [`planners-source-index`](https://github.com/thePlannerIvan/planners-source-index) | `source-index/2.1.0` 来源台账、可信度等级（`provenance`）与未读盲区校验器 |
-| 公共底座 | [`planners-fact-check`](https://github.com/thePlannerIvan/planners-fact-check) | 独立事实核查契约与枚举/门禁校验器（专防数值漂移与口径错配） |
-| 公共底座 | [`planners-report-kit`](https://github.com/thePlannerIvan/planners-report-kit) | 单文件离线 HTML 报告统一装配管线与外链依赖拦截器 |
-| DSH 生态 | [`DSH-better-sidebar`](https://github.com/thePlannerIvan/DSH-better-sidebar) | 支持三方扩展注册新 Tab、内置渲染/终端/子代理的增强侧边栏 |
-| DSH 生态 | [`deepseek-harness`](https://github.com/thePlannerIvan/deepseek-harness) | DeepSeek Harness 插件化底座参考 |
+| DSH 插件 | [`planners-form`](https://github.com/thePlannerIvan/planners-form) | 设置页一键勾选安装套件 Skill 与更新管理 |
+| DSH 插件 | [`dsh-review-dock`](https://github.com/thePlannerIvan/dsh-review-dock) | DSH 侧栏通用审阅宿主（挂载所有文字 / 视觉工作台并唤醒改稿） |
+| 公共底座 | [`planners-review-core`](https://github.com/thePlannerIvan/planners-review-core) | 统一文字工作台（`planners-doc/2`）、结构 diff、块级 patch 与历史版本 |
+| 公共底座 | [`planners-source-index`](https://github.com/thePlannerIvan/planners-source-index) | 来源路径、可信度等级（`provenance`）与未读盲区账本契约 |
+| 公共底座 | [`planners-fact-check`](https://github.com/thePlannerIvan/planners-fact-check) | 独立事实核查底座：专抓数字漂移、算错与主体时间错配 |
+| 公共底座 | [`planners-report-kit`](https://github.com/thePlannerIvan/planners-report-kit) | 单文件离线 HTML 报告装配管线与外链依赖拦截 |
+| DSH 生态 | [`DSH-better-sidebar`](https://github.com/thePlannerIvan/DSH-better-sidebar) · [`deepseek-harness`](https://github.com/thePlannerIvan/deepseek-harness) | DSH 增强侧栏工作台与插件化底座参考 |
 
 </details>

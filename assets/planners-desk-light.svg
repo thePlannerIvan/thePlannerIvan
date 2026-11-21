@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 545" width="960" height="545" role="img" aria-label="Planner Desk AI Collaboration Map">
+<rect width="960" height="545" rx="12" fill="#FAF9F6" stroke="#E2DDD3" stroke-width="1"/>
+<text x="28" y="39" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans SC',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="16" font-weight="700" fill="#18181B">PLANNER'S DESK · 策略人的 AI 协作地图</text>
+<text x="28" y="61" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans SC',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12" fill="#52525B">AI 想不出 Brilliant Idea，但只要人守住判断，它可以接管资料、推演、成文与制作的全过程</text>
+<line x1="28" y1="76" x2="932" y2="76" stroke="#E2DDD3" stroke-width="1"/>
+<text x="28" y="99" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans SC',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11.5" font-weight="700" letter-spacing="0.6" fill="#B45309">01 / PRODUCTION LINES · 两条已成型的端到端工作流</text>
+<rect x="28" y="112" width="904" height="118" rx="10" fill="#F4F1EA" stroke="#E2DDD3" stroke-width="1"/>
+<text x="42" y="132" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans SC',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12" font-weight="700" fill="#18181B">商业提案与 PPT 产线</text>
+<text x="918" y="132" text-anchor="end" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans SC',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#71717A">+ planners-method-wiki · 11 模块策略方法与页面结构按需调取</text>
+<rect x="42" y="144" width="202" height="72" rx="8" fill="#FFFFFF" stroke="#D2CCC0" stroke-width="1"/>
+<text x="54" y="165" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans SC',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12.5" font-weight="700" fill="#18181B">01 · 拆透资料</text>
+<text x="54" y="185" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11" font-weight="600" fill="#B45309">quali-box / quanti-box</text>
+<text x="54" y="203" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans SC',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#52525B">社媒访谈与数据出洞察</text>
+<line x1="248" y1="180.0" x2="261" y2="180.0" stroke="#9A8F7D" stroke-width="1.6"/>
+<polygon points="261,176.0 267,180.0 261,184.0" fill="#9A8F7D"/>
+<rect x="266" y="144" width="202" height="72" rx="8" fill="#FFFFFF" stroke="#D2CCC0" stroke-width="1"/>
+<text x="278" y="165" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans SC',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12.5" font-weight="700" fill="#18181B">02 · 共创主线</text>
+<text x="278" y="185" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11" font-weight="600" fill="#B45309">planners-proposal</text>
+<text x="278" y="203" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans SC',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#52525B">高摩擦研讨 · 改 Storyline</text>
+<line x1="472" y1="180.0" x2="485" y2="180.0" stroke="#9A8F7D" stroke-width="1.6"/>
+<polygon points="485,176.0 491,180.0 485,184.0" fill="#9A8F7D"/>
+<rect x="490" y="144" width="202" height="72" rx="8" fill="#FFFFFF" stroke="#D2CCC0" stroke-width="1"/>
+<text x="502" y="165" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans SC',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12.5" font-weight="700" fill="#18181B">03 · 写透核准</text>
+<text x="502" y="185" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11" font-weight="600" fill="#B45309">planners-bypage</text>
+<text x="502" y="203" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans SC',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#52525B">可编程逐页稿 · 独立查错</text>
+<line x1="696" y1="180.0" x2="709" y2="180.0" stroke="#9A8F7D" stroke-width="1.6"/>
+<polygon points="709,176.0 715,180.0 709,184.0" fill="#9A8F7D"/>
+<rect x="714" y="144" width="202" height="72" rx="8" fill="#FFFFFF" stroke="#D2CCC0" stroke-width="1"/>
+<text x="726" y="165" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans SC',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12.5" font-weight="700" fill="#18181B">04 · 视觉交付</text>
+<text x="726" y="185" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11" font-weight="600" fill="#B45309">planners-ppt-hell</text>
+<text x="726" y="203" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans SC',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#52525B">SVG 工作台 · 导可编 PPTX</text>
+<rect x="28" y="242" width="904" height="114" rx="10" fill="#F4F1EA" stroke="#E2DDD3" stroke-width="1"/>
+<text x="42" y="262" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans SC',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12" font-weight="700" fill="#18181B">观点短视频产线</text>
+<text x="918" y="262" text-anchor="end" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans SC',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#71717A">与 PPT 产线共用静态画面与审阅机制</text>
+<rect x="42" y="273" width="272" height="70" rx="8" fill="#FFFFFF" stroke="#D2CCC0" stroke-width="1"/>
+<text x="56" y="294" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans SC',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12.5" font-weight="700" fill="#18181B">01 · 创意与口播</text>
+<text x="56" y="313" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11.5" font-weight="600" fill="#B45309">video-idea-system</text>
+<text x="56" y="331" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans SC',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#52525B">52 技法发散 · 念稿审阅定口播</text>
+<line x1="320" y1="308.0" x2="338" y2="308.0" stroke="#9A8F7D" stroke-width="1.6"/>
+<polygon points="338,304.0 344,308.0 338,312.0" fill="#9A8F7D"/>
+<rect x="344" y="273" width="272" height="70" rx="8" fill="#FFFFFF" stroke="#D2CCC0" stroke-width="1"/>
+<text x="358" y="294" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans SC',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12.5" font-weight="700" fill="#18181B">02 · 静态关键帧</text>
+<text x="358" y="313" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11.5" font-weight="600" fill="#B45309">planners-ppt-hell</text>
+<text x="358" y="331" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans SC',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#52525B">按画面契约输出风格化静帧 SVG</text>
+<line x1="622" y1="308.0" x2="640" y2="308.0" stroke="#9A8F7D" stroke-width="1.6"/>
+<polygon points="640,304.0 646,308.0 640,312.0" fill="#9A8F7D"/>
+<rect x="646" y="273" width="272" height="70" rx="8" fill="#FFFFFF" stroke="#D2CCC0" stroke-width="1"/>
+<text x="660" y="294" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans SC',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12.5" font-weight="700" fill="#18181B">03 · 剪辑与成片</text>
+<text x="660" y="313" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11.5" font-weight="600" fill="#B45309">video-craft</text>
+<text x="660" y="331" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans SC',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#52525B">实测对轨 · 轻动效 · 语义字幕</text>
+<text x="28" y="382" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans SC',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11.5" font-weight="700" letter-spacing="0.6" fill="#1D4ED8">02 / CRAFT TOOLS · 单独拿出来也能立刻用的小工具（其中前三项会无缝插入上方主线）</text>
+<rect x="28" y="395" width="292" height="58" rx="8" fill="#FFFFFF" stroke="#D2CCC0" stroke-width="1"/>
+<text x="40" y="418" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11.5" font-weight="700" fill="#1D4ED8">sparkling</text>
+<rect x="250" y="404" width="60" height="19" rx="9" fill="#EFF6FF"/>
+<text x="280.0" y="417" text-anchor="middle" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans SC',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="10.5" font-weight="600" fill="#1E40AF">研讨破局</text>
+<text x="40" y="440" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans SC',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#52525B">卡在思考时，拉 AI 展开高摩擦业务对撞</text>
+<rect x="334" y="395" width="292" height="58" rx="8" fill="#FFFFFF" stroke="#D2CCC0" stroke-width="1"/>
+<text x="346" y="418" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11.5" font-weight="700" fill="#1D4ED8">storytelling</text>
+<rect x="556" y="404" width="60" height="19" rx="9" fill="#EFF6FF"/>
+<text x="586.0" y="417" text-anchor="middle" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans SC',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="10.5" font-weight="600" fill="#1E40AF">叙事推进</text>
+<text x="346" y="440" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans SC',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#52525B">把干巴巴的说明文写成有引力的故事</text>
+<rect x="640" y="395" width="292" height="58" rx="8" fill="#FFFFFF" stroke="#D2CCC0" stroke-width="1"/>
+<text x="652" y="418" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11.5" font-weight="700" fill="#1D4ED8">slide-copy</text>
+<rect x="858" y="404" width="64" height="19" rx="9" fill="#EFF6FF"/>
+<text x="890.0" y="417" text-anchor="middle" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans SC',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="10.5" font-weight="600" fill="#1E40AF">PPT 文案</text>
+<text x="652" y="440" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans SC',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#52525B">写标题即判断、高密度的上屏文案</text>
+<rect x="28" y="465" width="292" height="58" rx="8" fill="#FFFFFF" stroke="#D2CCC0" stroke-width="1"/>
+<text x="40" y="488" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11.5" font-weight="700" fill="#1D4ED8">editor</text>
+<rect x="250" y="474" width="60" height="19" rx="9" fill="#EFF6FF"/>
+<text x="280.0" y="487" text-anchor="middle" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans SC',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="10.5" font-weight="600" fill="#1E40AF">逐句精校</text>
+<text x="40" y="510" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans SC',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#52525B">红绿内联审阅修改，全文直接精校定稿</text>
+<rect x="334" y="465" width="292" height="58" rx="8" fill="#FFFFFF" stroke="#D2CCC0" stroke-width="1"/>
+<text x="346" y="488" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="11.5" font-weight="700" fill="#1D4ED8">keywords</text>
+<rect x="556" y="474" width="60" height="19" rx="9" fill="#EFF6FF"/>
+<text x="586.0" y="487" text-anchor="middle" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans SC',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="10.5" font-weight="600" fill="#1E40AF">词谱导图</text>
+<text x="346" y="510" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans SC',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#52525B">把陌生领域术语做成可视化杠杆词图谱</text>
+<rect x="640" y="465" width="292" height="58" rx="8" fill="#FFFFFF" stroke="#D2CCC0" stroke-width="1"/>
+<text x="652" y="488" font-family="'SFMono-Regular',Consolas,'Liberation Mono',Menlo,monospace" font-size="10.2" font-weight="700" fill="#1D4ED8">planning-before-create-skill</text>
+<rect x="846" y="474" width="76" height="19" rx="9" fill="#EFF6FF"/>
+<text x="884.0" y="487" text-anchor="middle" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans SC',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="10.5" font-weight="600" fill="#1E40AF">Skill 设计</text>
+<text x="652" y="510" font-family="'PingFang SC','Hiragino Sans GB','Microsoft YaHei','Noto Sans SC',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="11" fill="#52525B">把你的思考框架沉淀成可靠 Agent Skill</text>
+</svg>
