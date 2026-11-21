@@ -1,28 +1,28 @@
 # Planner's Desk
 
-> **人守住核心判断，把收集整理、推演写作、核查与制作交给工作流——为 Marketing 人打造的 AI 放大器。**
+> **人的价值在于判断和创意，那就把收集整理、推演写作、核查与制作交给 Agent——为 Marketer 打造的 AI 效能放大器。**
 
 <br/>
 
-AI 看起来越来越像程序员的专属领域。工程师早已在用 Agent 和工作流重构一切，而做 Marketing 的人，往往还在争论「AI 到底有没有用」。
+AI 看起来像程序员的专属领域。工程师早已在用 Agent 和工作流重构一切，而做 Marketing 的人，往往还在争论「AI 到底有没有用」。
 
-跑过足够多真实项目后，我越来越笃定一个边界：**AI 想不出真正打动人的 Brilliant Idea，也做不出有锋芒的商业判断和消费者洞察。** 但只要人把判断握在手里，剩下的绝大多数重体力活——啃完几十份访谈和行业报告、展开高摩擦脑暴、磨顺提案 Storyline、写透可编排的逐页正文、死磕每一处数字出处、排成可交付的 PPT，甚至剪成一条口播视频——**全都可以被组织成一套稳定运转的 AI 工作流。**
+经过半年的自我颠覆，我越来越笃定一个边界：**AI 想不出真正打动人的 Brilliant Idea，也做不出有锋芒的商业判断和消费者洞察。** 但剩下的绝大多数重体力活：啃完几十份访谈和行业报告、展开高摩擦脑暴、磨顺提案 Storyline、写透可编排的逐页正文、核查每一处数字出处、排成可交付的 PPT，甚至剪成一条口播视频——**全都可以被组织成一套稳定运转的 AI 工作流。**
 
-当人的判断被系统接住，AI 就不再是写漂亮废话的玩具，而是一台**极大的「人的放大器」**。
+当重复无聊的工作能交给 AI，人就能迸发出无穷无尽的 Idea，能够被快速验证、落地和交付。
 
-我是 **阿祖不看 TVC**，一名品牌策略师（小红书同名 · 个人站 [demyth.info](https://demyth.info) · `Lawyif@163.com`）。我把自己在真实品牌项目里摸索出 AI 边界、打磨出来的人机协作方法，开源整理成 **Planner's Desk**——希望让所有做 Marketing、做品牌、做内容的人，不必从零踩坑，直接站在我的案头上放大自己的判断力。
+我是**阿祖**，一名品牌策略（小红书同名 · 个人站 [demyth.info](https://demyth.info/) · `Lawyif@163.com`）。我把自己在真实品牌项目里摸索出 AI 边界、打磨出来的人机协作方法，开源整理成 **Planner's Desk**——希望让所有做 Marketing、做品牌、做内容的人，不必从零踩坑，真正放大自己的能力。
 
 ---
 
 ## 一张图看懂怎么用
 
-你可以从一整条**成型产线（Production Lines）**切入，从调研一路走到 PPT 或成片；也可以只抽下面六把**单独好用的手艺小刀（Craft Tools）**来用。
+你可以从一条已成型的**工作流（`01` / `02`）**直接开跑，也可以只抽下面六把**单独好用的小工具（`03`）**立刻上手。
 
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/planners-desk-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="./assets/planners-desk-light.svg" />
-    <img alt="Planner's Desk — 两条成型工作流与六个独立手艺工具" src="./assets/planners-desk-light.svg" width="100%" />
+    <img alt="Planner's Desk — 策略人的 AI 协作地图" src="./assets/planners-desk-light.svg" width="100%" />
   </picture>
 </p>
 
